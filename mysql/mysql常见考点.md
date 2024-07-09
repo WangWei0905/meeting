@@ -1,4 +1,10 @@
+acid
+原子性 基于undolog
+一致性 
+隔离性 锁+mvcc
+永久性 redolog
 
+注意：数据库原子性和redis原子性以及jvm原子性的区别和联系
 
 char255 varchar65535 text 区别 各自的大小
 timestamp datetime 区别
