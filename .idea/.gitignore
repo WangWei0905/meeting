@@ -6,3 +6,21 @@
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+# Git
+.idea/vcs.xml
+.idea/dataSources/
+.idea/*.xml
+
+# Gradle
+.idea/gradle.xml
+.idea/libraries/
+.idea/modules/
+.idea/workspace.xml
+# Gradle
+.gradle/
+.gradle/checksums/
+.gradle/checksums/checksums.lock
+.gradle/checksums/checksums.properties.new
+.gradle/checksums/checksums.properties.orig
+.gradle/checksums/checksums.properties.tmp
+.gradle/checksums/checksums.txt
