@@ -79,6 +79,11 @@ SingleThreadPool：单线程池，核心线程数和最大线程数相同，线�
 # AQS
 1. AQS是AbstractQueuedSynchronizer的简称，它是J.U.C包下的一个类，它提供了一种线程间协作的方式，通过阻塞和唤醒机制来实现。
 2. AQS是J.U.C包下的一个类，它提供了一种线程间协作的方式，通过阻塞和唤醒机制来实现。
+   
+##AQS在Java内存模型中是如何保证线程安全的？
+AQS使用了volatile关键字来保证state变量的可见性，并通过CAS（Compare-And-Swap）操作来保证原子性。
+
+
 
 # Atomic 
 1. AtomicInteger：原子整数
